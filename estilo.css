@@ -1,7 +1,7 @@
 th {display: table-cell;vertical-align: inherit;font-weight: bold;text-align: center;}
 abbr[title$=onfer] {font-style: italic !important;}
 abbr[title] {border-bottom:0px dotted !important;text-decoration: none;}
-body {background-color:white;font-size:13pt;text-align:left;font-family:sans-serif;}
+body {background-color:#92a8d1;font-size:13pt;text-align:left;font-family:sans-serif;}
 .f, .n1 > a {color:#0123CE;font-weight:bold;font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;}
 .f {font-size: 1.4em!important;}
 .n1 > a {font-size: 1.2em!important;}
