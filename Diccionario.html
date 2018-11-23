@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
+<title>Mi diccionario</title>
+<link rel="shortcut icon" type="image/ico" href="http://www.datatables.net/favicon.ico">
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="http://dle.rae.es/css/dile.css.pagespeed.ce.dj_KqQZQcK.css">
+<style type="text/css" class="init"></style>
+<base target="_blank">
+</head>
+<body class="dt-example">
+<table class="display compact" id="example">
+<thead>
+<tr>
+<th>Palabra</th>
+<th>Etimología</th>
+<th>Definición</th>
+<th>Ejemplo</th>
+<th>Fuente</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cerne</td>
+<td><p class="n2">Del <abbr title="latín">lat.</abbr> <em>circen, -ĭnis</em> 'círculo'.</p></td>
+<td>1. adj. Dicho especialmente de la madera: Sólida y fuerte.<br>2. m. Parte más dura y sana del tronco de los árboles, que se prefiere para las artes y construcciones de importancia.<hr>1. adj. Se aplica a lo sólido y fuerte.<br>2. m. CARPINTERÍA Parte más dura y sana del tronco de un árbol, que se usa principalmente para construcciones de importancia.</td>
+<td>2. El cerne se emplea en construcciones de importancia</td>
+<td><a href="http://dle.rae.es/?id=8LlLza0">R.A.E.</a>, <a href="https://es.thefreedictionary.com/cerne">TheFreeDictionary</a></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td>Palabra</td>
+<td>Etimología</td>
+<td>Definición</td>
+<td>Fuente</td>
+</tr>
+</tfoot>
+</table>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" class="init">
+$(document).ready(function() {
+	$('#example').DataTable( {
+		"language": {
+            "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json"
+        }
+    } );
+} );
+</script>
+</body>
+</html>
