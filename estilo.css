@@ -20,3 +20,15 @@ abbr {color:#0070C0;text-decoration:none;}
 abbr.g {color:#A6A6A6;}
 abbr.c {font-style:italic;}
 .n2 abbr, .n3 abbr {color:inherit;}
+.k5, .k6 {font-size: 1.2em!important;font-weight:bold;font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;margin-top: 1em;}
+.k5 {color:#800000;}
+.k6 {color:#CC3300;}
+.n_acep {font-weight:bold;}
+.h {color:#5E0D5E;font-style:italic;}
+.u {color:#FF0000;font-weight:bold;}
+.i1 {font-size:0.85em;text-transform:uppercase;}
+.i2 {font-size:0.92em;text-transform:uppercase;}
+.i4 {text-transform:uppercase;}
+.i5 {font-style:normal !important;}
+.k1{color:inherit;font-weight:normal;}
+.o {font-size:0.75em;font-style:italic;margin-bottom:2em;margin-top:1em;text-align:center;}
